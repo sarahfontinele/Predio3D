@@ -56,7 +56,7 @@
   <model-viewer 
     src="predio.glb" 
     ar 
-    ar-scale="fixed" <!-- Garante que a escala seja fixa no AR -->
+    ar-scale="fixed"
     camera-controls 
     touch-action="pan-y" 
     alt="Modelo 3D Ajustado"
@@ -68,7 +68,8 @@
     auto-rotate-speed="1" 
     interaction-prompt="auto"
     interaction-prompt-threshold="500"
-    scale="0.4 0.4 0.4">
+    scale="0.4 0.4 0.4"> <!-- Reduzido para 40% do tamanho original -->
+    
     <!-- Botão de AR -->
     <button id="ar-button" slot="ar-button">Veja no mundo real</button>
   </model-viewer>
